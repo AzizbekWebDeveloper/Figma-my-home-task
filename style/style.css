@@ -10,6 +10,7 @@
     width: 100vw;
     height: 100vh;
     position: relative;
+    overflow-x: hidden;
 }
 
 .container .navbar {
@@ -85,3 +86,215 @@
 #btn i {
     color: #fff;
 }
+
+.container .body {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background: #EBF3F5;
+}
+
+.container .body .left {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+} 
+
+.container .body .left #img {
+    position: absolute;
+    top: 190px;
+}
+
+.container .body .left .prosto {
+    /* width: 200px; */
+    position: absolute;
+    left: 120px;
+    top: 240px;
+}
+
+.container .body .left .prostoTwo {
+    /* width: 200px; */
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+
+.container .body .left .prostoThree {
+    /* width: 200px; */
+    position: absolute;
+    top: 500px;
+    left: 120px;
+}
+
+.container .body .left .Btn {
+    /* width: 200px; */
+    position: absolute;
+    top: 617px;
+    left: 120px;
+    border: 1px solid #5C8692;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 60px;
+    background-color: #5C8692;
+    cursor: pointer;
+}
+
+.container .body .left .Btn a {
+    color:#fff;
+    /* font-size: -10px; */
+}
+
+.container .body .right {
+    width: 50%;
+    height: 100%;
+}
+
+.container .content {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.container .content .left img {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    display: block;
+}
+
+.container .content .left #i {
+    position: absolute;
+    top: 400px;
+    left: 120px;
+    display: block;
+}
+
+.container .content .left #ITwo {
+    position: absolute;
+    top: 450px;
+    left: 120px;
+    display: block;
+}
+
+.container .content .left .btn a {
+    border: 1px solid #5C8692;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 550px;
+    left: 120px;
+    height: 50px;
+    color: #5C8692;
+}
+
+.container .content .center img {
+    position: absolute;
+    top: 100px;
+    left: 530px;
+    display: block;
+}
+
+.container .content .center #i2 {
+    position: absolute;
+    top: 400px;
+    left: 530px;
+    display: block;
+}
+
+.container .content .center #img2 {
+    position: absolute;
+    top: 450px;
+    left: 530px;
+    display: block;
+}
+
+.container .content .center .button a {
+    border: 1px solid #5C8692;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 550px;
+    left: 530px;
+    height: 50px;
+    color: #5C8692;
+}
+
+.container .content .right img {
+    position: absolute;
+    top: 100px;
+    left: 940px;
+    display: block;
+}
+
+.container .content .right #i3 {
+    position: absolute;
+    top: 400px;
+    left: 940px;
+    display: block;
+}
+
+.container .content .right #img3 {
+    position: absolute;
+    top: 450px;
+    left: 940px;
+    display: block;
+}
+
+.container .content .right .button3 a {
+    border: 1px solid #5C8692;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 550px;
+    left: 940px;
+    height: 50px;
+    color: #5C8692;
+}
+
+.container .contentT {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 1300px;
+    background-color: #EBF3F5;
+    display: flex;
+}
+
+.container .contentT .cleft {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .contentT .cright {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .contentT .cright .i_mage {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 800px;
+    z-index: 3;
+    bottom: 100px;
+}
+
